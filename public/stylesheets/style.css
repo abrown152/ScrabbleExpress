@@ -1,8 +1,33 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image:url("http://www.easyfreepatterns.com/patterns/1/background-wallpaper-image-gray-and-white-vertical-stripes--1121.jpg");
 }
 
 a {
   color: #00B7FF;
+}
+
+header {
+  background-image: url("https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13435352_3211145236135_2481108422543234826_n.jpg?oh=536895f66a031cf509f44333ef28b5b2&oe=580B89DD");
+  height: 170px;
+  border-style: solid;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  border-radius: 7px;
+  background-color: white;
+}
+
+nav {
+  border-style: solid;
+  height: 60px;
+  border-radius: 7px;
+  background-color: white;
+}
+
+article {
+  background-color: white;
+  border-style: solid;
+  border-radius: 7px;
+  height: 1000px;
 }
