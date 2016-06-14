@@ -27,12 +27,13 @@ var ScrabbleController = {
   //   // GET /scrabble/score/:name - A dynamic route that scores whatever word is passed into the :name portion of the dynamic route. Will render either
   //   // a page showing the user submitted word and it's score or
   //   // in the case of something it can't score, an error page with an "unscorable word" message
-  //   var locals = {}
   var locals = {}
-  var word_hash = req.params
+  console.log(req.params)
+  var word = req.params.name
   var scrabble = new ScrabbleLib()
-  locals.word = scrabble.score(word)
-
+  locals.word = word
+  locals.score = scrabble.score(word)
+  res.render('scrabble/show', locals)
   }
 
 }
