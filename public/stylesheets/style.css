@@ -37,8 +37,8 @@ ul li {
   display: inline;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 240px;
-  padding-right: 240px;
+  padding-left: 260px;
+  padding-right: 230px;
   font-size: 22px;
 
 }
@@ -52,4 +52,14 @@ h3 {
   font-size: 32px;
   text-align: center;
   font-weight: normal;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border-radius: 3px;
+  height: 21px;
+  margin: 11px;
 }

@@ -10,13 +10,13 @@ var ScrabbleController = {
   },
 
 
-
-
-
-  //
   getScore: function(req, res) {
   //   // GET /scrabble/score - shows a form allowing a user to submit a word for scoring
-  //   var locals = {}
+    var locals = {}
+    var scrabble = new ScrabbleLib()
+    locals.word_score = 20
+    res.render('scrabble/score', locals)
+
   },
   //
   postScore: function(req, res) {
