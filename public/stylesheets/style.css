@@ -69,3 +69,9 @@ input {
   text-align: center;
   margin-top: 80px;
 }
+
+p.ello {
+  font-size: 80px;
+  text-align: center;
+  font-weight: lighter;
+}

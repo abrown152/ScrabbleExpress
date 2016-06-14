@@ -14,7 +14,11 @@
       </ul>
     </nav>
     <article>
-    <p class = "return_score"><%= locals.word.toUpperCase() + " is worth " + locals.score + " points!" %></p>
+      <% if (isNaN(locals.score)) { %>
+        <p class="return_score">That's not a number -_-</p>
+      <% } else { %>
+        <p class = "return_score"><%= locals.word.toUpperCase() + " is worth " + locals.score + " points!" %></p>
+      <% } %>
   </article>
   </body>
 </html>
