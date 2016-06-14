@@ -13,17 +13,8 @@
         <li><a href="/scrabble/score">Score A Word</a></li>
       </ul>
     </nav>
-
     <article>
-    <br>
-    <br>
-    <br>
-    <form method="post" action="/scrabble/show">
-      <input type="text" name="title" placeholder="Enter word here">
-      <br>
-      <input type=submit value="SCORE WORD">
-    </form>
-
+    <p><%= locals.word.toUpperCase() + " is worth " + locals.score + " points!" %></p>
   </article>
   </body>
 </html>
